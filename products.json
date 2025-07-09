@@ -1,0 +1,82 @@
+[
+  {
+    "product_name": "Smartphone Galaxy X",
+    "manufacturer": "Samsung",
+    "short_description": "Flagowy smartfon z aparatem 108MP i ekranem 6.7\" AMOLED.",
+    "price": 3499.99,
+    "image_url": "https://m.media-amazon.com/images/I/61zHLX7S7gL._UF894,1000_QL80_.jpg",
+    "added_id": 0
+  },
+  {
+    "product_name": "Laptop UltraBook Pro",
+    "manufacturer": "Lenovo",
+    "short_description": "Lekki i wydajny laptop z procesorem i7 i 16GB RAM.",
+    "price": 5299.00,
+    "image_url": "https://www.hashtagcollectibles.com/cdn/shop/products/IMG_8335_-_selected_1024x1024.jpg?v=1476569864",
+    "added_id": 1
+  },
+  {
+    "product_name": "Słuchawki Quantum Sound",
+    "manufacturer": "Sony",
+    "short_description": "Bezprzewodowe słuchawki z aktywnym tłumieniem hałasu.",
+    "price": 899.99,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDQDxYtPUygEarnEda8xdKXHulkhT3NAM-ua9YSLab50ZOBdN_kjL-4onLGjnTWtxa9jk&usqp=CAU",
+    "added_id": 2
+  },
+  {
+    "product_name": "Słuchawki Quantum Sound 2137",
+    "manufacturer": "Sony",
+    "short_description": "Bezprzewodowe słuchawki z aktywnym tłumieniem hałasu.",
+    "price": 859.99,
+    "image_url": "https://www.hashtagcollectibles.com/cdn/shop/products/Pepe_the_Frog_-_Plush_doll_1024x1024.JPG?v=1476137684",
+    "added_id": 3
+  },
+  {
+    "product_name": "Konsola GameBox 5",
+    "manufacturer": "NextGen",
+    "short_description": "Najnowsza generacja konsoli do gier w 4K.",
+    "price": 2499.50,
+    "image_url": "https://ae01.alicdn.com/kf/Sfbc7aa20a1cd4773a29495ce13581a9dU.jpg_640x640q90.jpg",
+    "added_id": 4
+  },
+  {
+    "product_name": "Ekspres do kawy Deluxe",
+    "manufacturer": "Philips",
+    "short_description": "Automatyczny ekspres z młynek i spieniaczem mleka.",
+    "price": 1799.00,
+    "image_url": "https://pepesupply.com/cdn/shop/files/30_1.png?v=1724311301&width=713",
+    "added_id": 5
+  },
+  {
+    "product_name": "Smartwatch FitPro",
+    "manufacturer": "Xiaomi",
+    "short_description": "Opaska monitorująca puls, kroki i sen.",
+    "price": 399.99,
+    "image_url": "https://m.media-amazon.com/images/I/31xNSiz2bnL._AC_.jpg",
+    "added_id": 6 
+  },
+  {
+    "product_name": "Kamera Action 4K",
+    "manufacturer": "GoPro",
+    "short_description": "Wodoodporna kamera do sportów ekstremalnych.",
+    "price": 1599.00,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSarM1SFl3HK1NGpVEPiN-Vxa7mY5clHd3jAA3SFMAgoqV2fNepF18LltE4xvEKdjd-m_g&usqp=CAU",
+    "added_id": 7
+  },
+  {
+    "product_name": "Dron SkyMaster",
+    "manufacturer": "DJI",
+    "short_description": "Dron z kamerą 4K i zasięgiem 5km.",
+    "price": 4299.99,
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfUoOE7mhJLwWyv_0Z40fdPUwbtRL6q1DQJx0_tA2oAec2B1NdkE6UHDLRNUobbBRioYc&usqp=CAU",
+    "added_id": 8
+  },
+  {
+    "product_name": "Monitor UltraWide",
+    "manufacturer": "LG",
+    "short_description": "34-calgowy monitor zakrzywiony dla graczy.",
+    "price": 2899.00,
+    "image_url": "https://m.media-amazon.com/images/I/71JZm7x49qL._UF894,1000_QL80_.jpg",
+    "added_id": 9
+  }
+]
