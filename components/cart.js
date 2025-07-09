@@ -35,7 +35,7 @@ import { saveCartToStorage,loadCartFromStorage} from "./localStorage.js";
 let cartItems = [];
 
 export function addToCart(product, quantity = 1) {
-    const existingItem = cartItems.find(item => item.product.added_id === product.added_id); //na id
+    const existingItem = cartItems.find(item => item.product.added_id === product.added_id); 
     
     if (existingItem) {
         existingItem.quantity += quantity;

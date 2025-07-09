@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="main-grid">
+    <main  class="main-grid" aria-label="Główny nagłówek sklepu" role="main">
         <div class="left-column">
             <div class="header header-left">THE SHOP</div>
 
-            <div class="grid-container"></div>
+            <div class="grid-container" role="grid" aria-label="Lista produktów"></div>
         </div>
         <div class="right-column">
             <div class="header header-right">THE CART </div>
-            <div class="cart-items-container"></div>
-                <div class="cart-items-footer"></div>
+            <div class="cart-items-container" role="region" aria-live="polite" aria-label="Zawartość koszyka"></div>
+                <footer  class="cart-items-footer" role="contentinfo" aria-label="Podsumowanie koszyka"></footer >
         </div>
     
-    </div>
+    </main >
 
     <script type="module" src="./main.js"></script>
 
