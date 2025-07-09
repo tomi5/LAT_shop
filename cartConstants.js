@@ -45,3 +45,4 @@ export const translations = {
   EMPTY_CART: "Twój koszyk jest pusty"
 
 };
+

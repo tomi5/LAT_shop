@@ -1,6 +1,5 @@
 import {    RIGHT_COLUMN_CLASS,
     CART_CONTAINER_CLASS,
-    CART_FOOTER_CLASS,
     CART_SUMMARY_CLASS,
     MANUFACTURER_CONTAINER_CLASS,
     MANUFACTURER_HEADER_CLASS,
@@ -197,7 +196,6 @@ function addCartEventListeners() {
         checkbox.addEventListener('change', handleCheckboxChange);
     });
 
-    //query
 }
 
 function handleQuantityChange(e) {

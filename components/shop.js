@@ -19,22 +19,23 @@ import {
     QUANTITY_INPUT_SELECTOR,
     BUTTON_ADD_MIN_SELECTOR,
     ADD_TO_CART_BTN_SELECTOR,
-    ERROR_MESSAGE_CLASS
+    ERROR_MESSAGE_CLASS,
+    ERROR_MESSAGES
 } from '../shopConstants.js';
 
 
 export function loadAndRenderProducts() {
     fetch('products.json')
         .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
+            if (!response.ok) throw new Error(ERROR_MESSAGES.NETWORK_ERROR);
             return response.json();
         })
         .then(products => {
             renderProducts(products);
         })
         .catch(error => {
-            console.error('Error:', error);
-            showError('Wystąpił błąd podczas ładowania produktów.');
+            console.error(ERROR_MESSAGES.GENERAL_ERROR, error);
+            showError(ERROR_MESSAGES.LOADING_ERROR);
         });
 }
 
