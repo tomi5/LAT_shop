@@ -1,0 +1,18 @@
+Index: main.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import { initCart } from '/components/cart.js';\nimport { loadAndRenderProducts } from '/components/shop.js';\n\ndocument.addEventListener('DOMContentLoaded', () => {\n    initCart();\n    loadAndRenderProducts();\n});
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.js b/main.js
+--- a/main.js	(revision 3d297dfb43aa76b615b6bf1c6c1fb3f7423a6c77)
++++ b/main.js	(date 1752052644453)
+@@ -1,5 +1,5 @@
+-import { initCart } from '/components/cart.js';
+-import { loadAndRenderProducts } from '/components/shop.js';
++import { initCart } from './components/cart.js';
++import { loadAndRenderProducts } from './components/shop.js';
+ 
+ document.addEventListener('DOMContentLoaded', () => {
+     initCart();

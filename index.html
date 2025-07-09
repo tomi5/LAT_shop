@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sklep</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Sklep - Refactored</title>
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
-    <main  class="main-grid" aria-label="Główny nagłówek sklepu" role="main">
+    <div class="main-grid">
         <div class="left-column">
             <div class="header header-left">THE SHOP</div>
-
-            <div class="grid-container" role="grid" aria-label="Lista produktów"></div>
+            <div class="grid-container"></div>
         </div>
         <div class="right-column">
-            <div class="header header-right">THE CART </div>
-            <div class="cart-items-container" role="region" aria-live="polite" aria-label="Zawartość koszyka"></div>
-                <footer  class="cart-items-footer" role="contentinfo" aria-label="Podsumowanie koszyka"></footer >
+            <div class="header header-right">THE CART</div>
+            <div class="cart-items-container"></div>
+            <div class="cart-items-footer"></div>
         </div>
-    
-    </main >
+    </div>
 
-    <script type="module" src="./main.js"></script>
-
+    <script type="module" src="./src/main.js"></script>
 </body>
 </html>
