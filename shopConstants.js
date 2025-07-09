@@ -29,3 +29,9 @@ export const ADD_TO_CART_BTN_SELECTOR = `.${ADD_TO_CART_BTN_CLASS}`;
 
 // Other constants
 export const ERROR_MESSAGE_CLASS = 'error-message';
+
+export const ERROR_MESSAGES = {
+    NETWORK_ERROR: 'Network respond error',
+    LOADING_ERROR: 'Product loading error',
+    GENERAL_ERROR: 'ERROR:'
+};

@@ -330,5 +330,5 @@ function updateTotals() {
 
 export function initCart() {
     cartItems = loadCartFromStorage();
-    loadCartFromStorage();
+    updateCartDisplay();
 }

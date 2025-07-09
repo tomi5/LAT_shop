@@ -1,17 +1,10 @@
-import { updateCartDisplay } from "./cart.js";
-
 export function saveCartToStorage(cartItems){
     localStorage.setItem('cart',JSON.stringify(cartItems));
 }
 
 export function loadCartFromStorage(){
     const savedCart = localStorage.getItem('cart');
-    if (savedCart){
-        const cartItems = JSON.parse(savedCart);
-        updateCartDisplay(cartItems);
-        return cartItems
-    }
-    return [];
+    return savedCart ? JSON.parse(savedCart) : [];
 }
 
 export function clearCartStorage(){
